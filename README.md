@@ -1,6 +1,6 @@
 # prometheus_msgs
 
-The prometheus_msgs package, forked from https://github.com/amov-lab/Prometheus.git
+The prometheus_msgs package, modified from [msgs](https://github.com/amov-lab/Prometheus/tree/v1.1/Modules/common/msgs)
 
 ![HitCount](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FHuaYuXiao%2Fprometheus_msgs.json%3Fcolor%3Dpink)
 ![Static Badge](https://img.shields.io/badge/ROS-noetic-22314E?logo=ros)
