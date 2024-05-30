@@ -7,7 +7,7 @@ sensor_msgs/Image image
 ---
 # Result definition
 int16 id
-prometheus_msgs/BoundingBoxes bounding_boxes
+easondrone_msgs/BoundingBoxes bounding_boxes
 
 ---
 # Feedback definition

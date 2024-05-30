@@ -15,6 +15,3 @@ uint8 Command
 uint8 Start=0
 uint8 Return=1
 uint8 Stop=2
-
-
-

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(prometheus_msgs)
+project(easondrone_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   message_generation  

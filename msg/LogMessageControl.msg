@@ -15,6 +15,3 @@ ControlOutput Control_Output
 AttitudeReference Attitude_Reference
 
 geometry_msgs/PoseStamped ref_pose
-
-
-

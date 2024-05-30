@@ -1,4 +1,3 @@
-
 std_msgs/Header header
 
 ArucoInfo Aruco1

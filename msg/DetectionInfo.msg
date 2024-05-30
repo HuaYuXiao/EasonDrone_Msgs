@@ -29,4 +29,3 @@ float32 yaw_error
 
 ## 类别
 int32 category
-

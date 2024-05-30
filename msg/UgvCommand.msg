@@ -24,5 +24,3 @@ float32 yaw_ref             ## [rad]
 
 float32[2] linear_vel       ## [m/s]
 float32 angular_vel         ## [rad/s]
-
-
