@@ -14,8 +14,7 @@ uint8 Hold=2
 uint8 Land=3
 uint8 Move=4
 uint8 Disarm=5
-uint8 User_Mode1=6
-uint8 User_Mode2=7
+uint8 OFFBOARD_ARM=6
 
 ## 控制参考量 
 ## 位置参考量：位置、速度、加速度、加加速度、加加加速度

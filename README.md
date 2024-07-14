@@ -22,6 +22,7 @@ catkin_make install --source Modules/common/EasonDrone_Msgs --build Modules/comm
 
 ## Release Note
 
+- v1.2.0: OFFBOARD & arm with easondrone_msgs::ControlCommand::OFFBOARD_ARM
 - v1.1.0: support `POS_VEL_ACC` control
 
 
