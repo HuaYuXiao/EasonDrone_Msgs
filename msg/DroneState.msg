@@ -10,9 +10,6 @@ bool landed
 string mode
 bool odom_valid
 
-## 系统启动时间
-float32 time_from_start             ## [s]
-
 ## 无人机状态量：位置、速度、姿态
 float32[3] position                 ## [m]
 float32  rel_alt                               ## [m] only for outdoor

@@ -17,10 +17,6 @@ uint8 Move_frame
 # 默认情况下均为ENU_FRAME,注意轨迹追踪和XYZ_ACC一定是ENU_FRAME
 uint8 ENU_FRAME  = 0
 uint8 BODY_FRAME = 1
-uint8 MIX_FRAME = 2 ##2020.4.6 临时增加的模式，后期需要统一整合，该模式下，xy采用机体系控制，z采用enu系控制
-
-## 时刻： 用于轨迹追踪
-float32 time_from_start          ## [s]
 
 ## 参考量：位置、速度、加速度、加加速度、加加加速度
 float32[3] position_ref          ## [m]
@@ -28,9 +24,9 @@ float32[3] velocity_ref          ## [m/s]
 float32[3] acceleration_ref      ## [m/s^2]
 ## float32[3] jerk_ref              ## [m/s^3]
 ## float32[3] snap_ref              ## [m/s^4]
-float64 latitude        ## 无人机经度、纬度、高度                 
-float64 longitude       ## 无人机经度、纬度、高度
-float64 altitude        ## 无人机经度、纬度、高度
+float64 latitude        ## 无人机经度
+float64 longitude       ## 无人机纬度
+float64 altitude        ## 无人机高度
 
 ## 角度参考量：偏航角、偏航角速度、偏航角加速度
 bool Yaw_Rate_Mode                      ## True 代表控制偏航角速率
