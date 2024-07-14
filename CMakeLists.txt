@@ -20,38 +20,11 @@ find_package(Boost REQUIRED COMPONENTS system)
 add_message_files(
   DIRECTORY msg
   FILES
-  DetectionInfo.msg
-  MultiDetectionInfo.msg
-  BoundingBox.msg
-  BoundingBoxes.msg
   ControlCommand.msg
   PositionReference.msg
   AttitudeReference.msg
   DroneState.msg
   ControlOutput.msg
-  Message.msg
-  LogMessage.msg
-  LogMessageControl.msg
-  LogMessagePlanning.msg
-  LogMessageDetection.msg
-  SwarmCommand.msg
-  Formation.msg
-  ArucoInfo.msg
-  MultiArucoInfo.msg
-  IndoorSearch.msg
-  UgvState.msg
-  UgvCommand.msg
-  StationCommand.msg
-  Case2Result.msg
-  Case3Result.msg
-  Msg103.msg
-  Msg104.msg
-)
-
-add_action_files(
-  DIRECTORY action
-  FILES
-  CheckForObjects.action
 )
 
 generate_messages(
