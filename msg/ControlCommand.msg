@@ -5,7 +5,7 @@ uint8 Mode
 # enum Mode 控制模式枚举
 uint8 Idle=0
 uint8 Takeoff=1
-uint8 Hold=2
+uint8 Hover=2
 uint8 Land=3
 uint8 Move=4
 uint8 Disarm=5
