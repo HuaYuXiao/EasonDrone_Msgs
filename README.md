@@ -16,6 +16,7 @@ The easondrone_msgs package.
 ## Installation
 
 ```shell
+cd ~/EasonDrone
 catkin_make install --source Modules/EasonDrone_Msgs --build Modules/EasonDrone_Msgs/build
 ```
 
