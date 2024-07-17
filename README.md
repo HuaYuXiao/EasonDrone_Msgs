@@ -10,13 +10,13 @@ The easondrone_msgs package.
 
 ## Note
 
-- easondrone_msgs::PositionReference is part of  easondrone_msgs::ControlCommand.Reference_State
+- `easondrone_msgs::PositionReference` is part of `easondrone_msgs::ControlCommand.Reference_State`
 
 
-## Compilation
+## Installation
 
-```bash
-catkin_make install --source Modules/common/EasonDrone_Msgs --build Modules/common/EasonDrone_Msgs/build
+```shell
+catkin_make install --source Modules/EasonDrone_Msgs --build Modules/EasonDrone_Msgs/build
 ```
 
 
@@ -25,7 +25,7 @@ catkin_make install --source Modules/common/EasonDrone_Msgs --build Modules/comm
 - v1.1.1: 
   - remove `source` and check for `Command_ID` from `ControlCommand`
   - remove `time_from_start`
-  - OFFBOARD & arm with easondrone_msgs::ControlCommand::OFFBOARD_ARM
+  - OFFBOARD & arm with `easondrone_msgs::ControlCommand::OFFBOARD_ARM`
   - replace `Hold` with `Hover`
   - remove useless msgs
 - v1.1.0: support `POS_VEL_ACC` control
