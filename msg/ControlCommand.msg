@@ -3,7 +3,6 @@ std_msgs/Header header
 ## 控制命令的模式 
 uint8 Mode
 # enum Mode 控制模式枚举
-uint8 Idle=0
 uint8 Takeoff=1
 uint8 Hover=2
 uint8 Land=3

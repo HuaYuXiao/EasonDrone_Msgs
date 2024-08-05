@@ -21,17 +21,6 @@ catkin_make install --source Modules/EasonDrone_Msgs --build Modules/EasonDrone_
 ```
 
 
-## Release Note
-
-- v1.1.1: 
-  - remove `source` and check for `Command_ID` from `ControlCommand`
-  - remove `time_from_start`
-  - OFFBOARD & arm with `easondrone_msgs::ControlCommand::OFFBOARD_ARM`
-  - replace `Hold` with `Hover`
-  - remove useless msgs
-- v1.1.0: support `POS_VEL_ACC` control
-
-
 ## Acknowledgement
 
 Thanks to following packages:
