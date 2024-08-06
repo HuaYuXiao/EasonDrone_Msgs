@@ -9,7 +9,7 @@ uint8 Takeoff = 2
 uint8 Move = 3
 uint8 Hold = 4
 uint8 Land = 5
-uint8 Return = 6
+uint8 Manual = 6
 uint8 Disarm = 7
 
 ## 控制参考量
