@@ -9,22 +9,15 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   nav_msgs
   std_msgs
-  std_srvs
-  tf2_ros
-  tf2_eigen
   mavros_msgs
+        quadrotor_msgs
 )
-
 find_package(Boost REQUIRED COMPONENTS system)
 
 add_message_files(
   DIRECTORY msg
   FILES
   ControlCommand.msg
-  PositionReference.msg
-  AttitudeReference.msg
-  DroneState.msg
-  ControlOutput.msg
 )
 
 generate_messages(
@@ -33,6 +26,7 @@ generate_messages(
   geometry_msgs 
   sensor_msgs
   std_msgs
+        quadrotor_msgs
 )
 
 catkin_package(
@@ -41,16 +35,6 @@ catkin_package(
   actionlib_msgs
   geometry_msgs
   sensor_msgs
-  message_runtime
   std_msgs
-)
-
-include_directories(
-  include
-  ${catkin_INCLUDE_DIRS}
-)
-
-install(DIRECTORY include/${PROJECT_NAME}/
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
-  FILES_MATCHING PATTERN "*.h"
+        quadrotor_msgs
 )

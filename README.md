@@ -8,11 +8,6 @@ The easondrone_msgs package.
 ![Static Badge](https://img.shields.io/badge/Ubuntu-20.04.6-E95420?logo=ubuntu)
 
 
-## Note
-
-- `easondrone_msgs::PositionReference` is part of `easondrone_msgs::ControlCommand.Reference_State`
-
-
 ## Installation
 
 ```shell
@@ -26,3 +21,4 @@ catkin_make install --source Modules/EasonDrone_Msgs --build Modules/EasonDrone_
 Thanks to following packages:
 
 - [prometheus_msgs](https://github.com/amov-lab/Prometheus/tree/v1.1/Modules/common/msgs)
+- [quadrotor_msgs](https://github.com/jchenbr/quadrotor_msgs)
