@@ -1,7 +1,7 @@
 std_msgs/Header header
 
 ## 控制命令的模式
-uint8 Mode
+uint8 mode
 # enum Mode 控制模式枚举
 uint8 Arm = 0
 uint8 Offboard = 1
@@ -14,8 +14,8 @@ uint8 Disarm = 7
 
 ## 控制参考量
 ## 位置参考量：位置、速度、加速度、加加速度、加加加速度
-uint8 Frame
+uint8 frame
 uint8 ENU = 0
 uint8 NED = 1
 
-quadrotor_msgs/PositionCommand PosCmd
+quadrotor_msgs/PositionCommand poscmd
