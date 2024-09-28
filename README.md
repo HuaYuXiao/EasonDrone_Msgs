@@ -29,15 +29,6 @@ uint16 Move = 13
 ## Installation
 
 ```shell
-cd ~/EasonDrone/Modules
-git clone https://github.com/HuaYuXiao/easondrone_msgs.git
-cd ~/EasonDrone
-catkin_make install --source Modules/easondrone_msgs --build Modules/easondrone_msgs/build
+git clone https://github.com/HuaYuXiao/easondrone_msgs.git ~/easondrone_ws/module/easondrone_msgs
+cd ~/easondrone_ws && catkin_make --source module/easondrone_msgs --build module/easondrone_msgs/build
 ```
-
-## Acknowledgement
-
-Thanks for following packages:
-
-- [prometheus_msgs](https://github.com/amov-lab/Prometheus/tree/v1.1/Modules/common/msgs)
-- [quadrotor_msgs](https://github.com/jchenbr/quadrotor_msgs)
