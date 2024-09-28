@@ -9,7 +9,6 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   nav_msgs
   std_msgs
-  mavros_msgs
         quadrotor_msgs
 )
 find_package(Boost REQUIRED COMPONENTS system)
